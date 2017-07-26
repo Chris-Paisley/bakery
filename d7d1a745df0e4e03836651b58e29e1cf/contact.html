@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <meta charset="UTF-8" />
+  <title>Sweet Bakery</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Lobster" rel="stylesheet">
+  
+</head>
+<body>
+<div class="header">
+  
+  <h1>Sweet Bakery</h1>
+  <img  class="imageLogo" src="https://goo.gl/SAAvNy" alt="" />
+     
+  <ul id="nav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="contact.html" class="selected">Contact</a></li>
+  </ul> 
+</div> 
+ 
+  <div >
+    <!--Make a form called contact me with  name, -->
+    <form class="contactForm">
+      <h3 class="aboutTitle">Contact us!</h3>  
+      <lable for="name">Name:<br></label>
+  <input  type="text" name="name" placeholder="Name" required /><br>
+<!--email,-->      
+      <lable for="email">Email:<br></label>
+  <input type="email" name="email" placeholder="email@gmail.com" required /><br>
+<!-- comment section,-->      
+      <lable for="comments">Comments:<br> </label>   
+      <textarea name="comment" placeholder="Any comments here" required ></textarea><br>  
+<!-- submit button-->        
+      <input type="submit" value="Submit"/> 
+</form>
+    <p class="noSub">Form doesn't actually submit</p>
+      </div>
+  
+
+    
+  
+  <!-- Scripts -->
+  <script src="home.js"></script> 
+</body>
+</html>
